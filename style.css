@@ -1,0 +1,505 @@
+body{
+    background-image: url(./bggg.PNG);
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    border-radius: 30%;
+}
+
+div a{
+    display: inline-block;
+    padding: 20px;
+    color: yellow;
+    text-decoration: none;
+    font-size: 40;
+    
+}
+
+.text{
+
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+    margin-top: 170px;
+}
+
+.name{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+}
+.name:hover{
+    font-size: 50px;
+    color: red;
+    
+}
+.front{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.myimg{
+    width: 300px;
+    height: 425px;
+    border-radius: 20%;
+    margin-right: 100px;
+    margin-top: 100px;
+    
+}
+.myimg:hover{
+    width: 320px;
+    height: 450px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+
+.personal{
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.para{
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    margin-top: 0px;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-left: 130px;
+    padding: 5px;
+    border-radius: 50px;
+    color:black;
+    background-color:yellow;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+
+.btn:hover{
+    background-color: red;
+    color: yellow;
+}
+
+.home:hover{
+    font-size: 29px;
+    color: white;
+    
+}
+.projects:hover{
+    font-size: 29px;
+    color: white;
+    
+}
+.skills:hover{
+    font-size: 29px;
+    color: white;
+    
+}
+.contact:hover{
+    font-size: 29px;
+    color: white;
+    
+}
+.home{
+    font-size: 20px;
+}
+.projects{
+    font-size: 20px;
+}
+.skills{
+    font-size:20px ;
+}
+.contact{
+    font-size: 20px;
+}
+.html{
+    color: black;
+    height: 350px;
+    background-color: yellow;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.htmlcss p{
+    font-size: 25px;
+}
+.html :hover{
+    font-size: 28px;
+    color: gray;
+}
+.css{
+    color: black;
+    height: 350px;
+    background-color: yellow;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+}
+.css :hover{
+    font-size: 28px;
+    color: gray;
+}
+.Typescript p{
+    font-size: 25px;
+ }
+.Typescript{
+    color: black;
+    height: 350px;
+    background-color: yellow;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 37.5%;
+    padding: 10px;;
+}
+
+.Typescript :hover{
+    font-size: 28px;
+    color: gray;
+}
+.htmlcss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.projectlinks{
+    color: yellow;
+    font-size: 35px;
+    margin-left: 40px;
+    line-height: 80px;
+    
+}
+.typprolist{
+    color: yellow;
+    padding: 20px;
+    font-size: 100px;
+    
+}
+
+.projectlinks li a{
+    color: white; 
+    padding: 20px;
+
+}
+.projectlinks li a:hover{
+    color: yellow;
+    size: 80px;
+    font-size: 50px;
+
+}
+
+.hcontact{
+ font-size: 80px;
+ color: red;  
+ margin-left: 500px;
+ 
+ }
+
+ .emaillogo{
+    border-radius: 40%;
+    width: 60px;
+    height: 60px;
+    margin-left : 20px;
+
+
+ }
+ .emailmsg{
+    color: yellow;
+    font-size: 25px;
+    margin-left : 20px;
+ }
+
+ .hcolor{
+    color: red;
+    font-size: 40px;
+    margin-left : 20px;
+ }
+
+ /* big editing complete */
+
+
+ @media (max-width:600px){
+
+
+
+    /* body{
+        background-image: url(./bggg.PNG);
+        background-size: cover;
+    } */
+    
+body{
+    background-color: black;
+}
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .logo{
+        width:130px;
+        height: 60px;
+        border-radius: 30%;
+        display: none;
+    }
+    
+    div a{
+        color: yellow;
+        text-decoration: none;
+        font-size: 25;
+        
+    }
+    
+    .text{
+    
+        color: white;
+        font-size: 32px;
+        padding-left: 20px;
+        margin-top: 80px;
+    }
+    
+    .name{
+        color: yellow;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .name:hover{
+        font-size: 36px;
+        color: red;
+        
+    }
+    .front{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .myimg{
+        width: 300px;
+        height: 425px;
+        border-radius: 20%;
+        margin-right: 30px;
+        margin-top: 50px;
+        
+    }
+    .myimg:hover{
+        width: 320px;
+        height: 450px;
+        transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    }
+    
+    
+    .personal{
+        color: white;
+        font-size: 32px;
+        padding-left: 20px;
+        margin-top: 12px;
+    }
+    
+    .para{
+        color: white;
+        font-size: 32px;
+        padding-left: 20px;
+        margin-top: 0px;
+    }
+    
+    .btn{
+        margin-top: 30px;
+        margin-left: 100px;
+        padding: 5px;
+        border-radius: 50px;
+        color:black;
+        background-color:yellow;
+        font-weight: bold;
+        height: 50px;
+        width: 150px;
+    }
+    
+    .btn:hover{
+        background-color: red;
+        color: yellow;
+    }
+    
+    .home:hover{
+        font-size: 18px;
+        color: white;
+        
+    }
+    .projects:hover{
+        font-size: 18px;
+        color: white;
+        
+    }
+    .skills:hover{
+        font-size: 18px;
+        color: white;
+        
+    }
+    .contact:hover{
+        font-size: 18px;
+        color: white;
+        
+    }
+    .home{
+        font-size: 15px;
+    }
+    .projects{
+        font-size: 15px;
+    }
+    .skills{
+        font-size:15px ;
+    }
+    .contact{
+        font-size: 15px;
+    }
+
+
+/* home section complete */
+
+
+
+/* skill section start here */
+
+
+.htmlcss{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+    .html{
+        color: black;
+        height: 300px;
+        background-color: yellow;
+        width: 300px;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+    .htmlcss p{
+        font-size: 18px;
+    }
+    .html :hover{
+        font-size: 19px;
+        color: gray;
+    }
+    .css{
+        margin-top: 20px;
+        color: black;
+        height: 300px;
+        background-color: yellow;
+        width: 300px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .css :hover{
+        font-size: 19px;
+        color: gray;
+    }
+ 
+    .Typescript{
+        color: black;
+        height: 280px;
+        background-color: yellow;
+        width: 280px;
+        text-align: center;
+        border-radius: 20px;
+        margin-left: 1px;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    .Typescript p{
+        font-size: 18px;
+     }
+
+    .Typescript :hover{
+        font-size: 19px;
+        color: gray;
+    }
+  
+
+/* eends */
+
+/* projects section start here */
+    
+    .projectlinks{
+        color: yellow;
+        font-size: 25px;
+        margin-left: 40px;
+        line-height: 80px;
+        
+    }
+    .typprolist{
+        color: yellow;
+        padding: 17px;
+        font-size: 50px;
+        
+    }
+    
+    .projectlinks li a{
+        color: white; 
+        padding: 10px;
+    
+    }
+    .projectlinks li a:hover{
+        color: yellow;
+        size: 20px;
+        font-size: 40px;
+    
+    }
+    
+/* eends */
+
+/* contact section start here */
+
+    .hcontact{
+     font-size: 17px;
+     color: red;  
+     margin-left: 10px;
+     
+     
+     }
+    
+     .emaillogo{
+        border-radius: 40%;
+        width: 40px;
+        height: 40px;
+        margin-left : 3px
+    
+    
+     }
+     .emailmsg{
+        color: yellow;
+        font-size: 14px;
+        margin-left : 3px;
+     }
+    
+     .hcolor{
+        color: red;
+        font-size: 18px;
+        margin-left : 10px;
+     }
+    
+
+
+
+ }
